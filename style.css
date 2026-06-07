@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 8%;
+  padding: 2px 8%;
   background: #c1c1c1;
   position: sticky;
   top: 0;
@@ -37,7 +37,7 @@ body {
 }
 
 .logo a {
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: #0051ff;
   text-decoration: none;
 }
@@ -56,7 +56,7 @@ body {
 .nav-links a {
   text-decoration: none;
   color: #1e3a8a;
-  font-size: large;
+  font-size: 1rem;
   font-weight: 500;
   transition: 0.3s;
 }
@@ -70,7 +70,7 @@ body {
 
 .menu-toggle {
   display: none;
-  font-size: 1.8rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -88,7 +88,7 @@ body {
 
 .hero-image img {
   width: 320px;
-  height: auto;
+  height: 320px;
   object-fit: cover;
   border-radius: 10%;
   border: 9px solid #c1c1c1;
@@ -100,17 +100,19 @@ body {
 }
 
 .hero-content h1 {
-  font-size: 3.5rem;
+  font-size: 2rem;
   color: #1e3a8a;
 }
 
 .hero-content h2 {
   margin-top: 10px;
+  font-size: 1rem;
   color: #0051ff;
 }
 
 .hero-description {
   margin: 20px 0;
+  font-size: 0.75rem;
 }
 
 blockquote {
@@ -135,8 +137,8 @@ blockquote {
   color: white;
   text-decoration: none;
   font-size: 1rem;
-  font-weight: bold;
-  padding: 12px 24px;
+  font-weight: 400;
+  padding: 10px 20px;
   border-radius: 8px;
   transition: 0.3s;
   border: 4px solid #c1c1c1;
@@ -149,16 +151,16 @@ blockquote {
   border: 4px solid #0051ff;
   color: #0051ff;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .btn-outline {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 400;
   border: 4px solid #0051ff;
   color: #0051ff;
   background: #c1c1c1;
@@ -172,7 +174,7 @@ blockquote {
   border: 4px solid #c1c1c1;
   color: white;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .btn-2 {
@@ -182,9 +184,9 @@ blockquote {
   background: #0051ff;
   color: white;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 400;
   text-decoration: none;
-  padding: 12px 24px;
+  padding: 10px 20px;
   border-radius: 8px;
   transition: 0.3s;
   border: 4px solid #c1c1c1;
@@ -197,7 +199,7 @@ blockquote {
   border: 4px solid #0051ff;
   color: #0051ff;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 /* SECTION */
@@ -330,9 +332,9 @@ a:hover .custom-underline {
 footer {
   background: #c1c1c1;
   color: #1e3a8a;
-  font-size: 1.4rem;
+  font-size: 1rem;
   text-align: center;
-  padding: 10px;
+  padding: 2px;
 }
 
 /* Scroll to Top Btn */
